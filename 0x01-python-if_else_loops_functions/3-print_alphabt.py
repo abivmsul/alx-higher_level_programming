@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 for letter in range(97, 123):
-    if letter == 'q':
+    if letter == 113:
         continue
-    elif letter == 'e':
+    elif letter == 101:
         continue
     else:
         print("{}".format(chr(letter)), end="")
