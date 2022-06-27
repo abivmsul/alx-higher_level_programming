@@ -42,7 +42,7 @@ def get_solution(board):
     for r in range(len(board)):
         for c in range(len(board)):
             if board[r][c] == "Q":
-                solution.append([r, c])
+                solution.append([c, c])
                 break
     return (solution)
 
